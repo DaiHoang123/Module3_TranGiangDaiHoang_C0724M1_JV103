@@ -1,0 +1,11 @@
+CREATE TABLE `matbangchothue` (
+  `MaMatBang` varchar(10) NOT NULL,
+  `TrangThai` varchar(20) NOT NULL,
+  `DienTich` decimal(10,2) NOT NULL,
+  `Tang` int NOT NULL,
+  `LoaiMatBang` varchar(50) NOT NULL,
+  `GiaTien` bigint NOT NULL,
+  `NgayBatDau` date NOT NULL,
+  `NgayKetThuc` date NOT NULL,
+  PRIMARY KEY (`MaMatBang`)
+)
